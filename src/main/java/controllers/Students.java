@@ -29,7 +29,6 @@ public class Students {
     }
 
     public static boolean createNewStudents() {
-        // Add prompt to tell the user what data they need to enter next
         System.out.print("Enter the student name: ");
         String name = scanner.nextLine();
 

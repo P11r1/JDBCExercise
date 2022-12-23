@@ -12,9 +12,9 @@ public class Menu {
         System.out.println("Pick a submenu number to continue: ");
         System.out.println("1. Students");
         System.out.println("2. Grades");
-
         System.out.println();
         System.out.print("Select an option: ");
+
         int option = scanner.nextInt();
 
         switch (option) {
@@ -36,9 +36,9 @@ public class Menu {
         System.out.println("1. Get All Students");
         System.out.println("2. Create New Students");
         System.out.println("3. Delete Students");
-
         System.out.println();
         System.out.print("Select an option or enter 0 to go back to the main menu: ");
+
         int option = scanner.nextInt();
 
         switch (option) {
@@ -68,9 +68,9 @@ public class Menu {
         System.out.println("1. Get All Grades");
         System.out.println("2. Create New Grades");
         System.out.println("3. Delete Grades");
-
         System.out.println();
         System.out.print("Select an option or enter 0 to go back to the main menu: ");
+
         int option = scanner.nextInt();
 
         switch (option) {
@@ -82,7 +82,7 @@ public class Menu {
                 gradesMenu();
                 break;
             case 2:
-                Grades.createNewGrades();
+                Grades.askScoreAndAssignGrade();
                 gradesMenu();
                 break;
             case 3:

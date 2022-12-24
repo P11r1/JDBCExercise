@@ -63,13 +63,13 @@ public class Grades {
 
         String grade;
 
-        if (score < 40) {
+        if (score <= 40) {
             grade = "F";
-        } else if (score < 49) {
+        } else if (score <= 49) {
             grade = "D";
-        } else if (score < 59) {
+        } else if (score <= 59) {
             grade = "C";
-        } else if (score < 69) {
+        } else if (score <= 69) {
             grade = "B";
         } else {
             grade = "A";

@@ -61,18 +61,18 @@ public class Grades {
         System.out.println("Enter student score: ");
         int score = scanner.nextInt();
 
-        String grade;
+        char grade;
 
         if (score <= 40) {
-            grade = "F";
+            grade = 'F';
         } else if (score <= 49) {
-            grade = "D";
+            grade = 'D';
         } else if (score <= 59) {
-            grade = "C";
+            grade = 'C';
         } else if (score <= 69) {
-            grade = "B";
+            grade = 'B';
         } else {
-            grade = "A";
+            grade = 'A';
         }
 
         try {

@@ -14,7 +14,7 @@ import controllers.menu.Menu;
  * 0 - 40 F, 41 - 49 D, 50 - 59 C, 60 - 69 B, 70 - 100 A.
  * The columns should be id, Student id, score, grade
  * Complete the controller on the Grades table to have CRD OP.
- * For the read operation, you should see students info as well
+ * For the read operation, you should see students info as well1
  *
  * @author Marko
  */

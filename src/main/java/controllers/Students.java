@@ -33,7 +33,7 @@ public class Students {
         String name = scanner.nextLine();
 
         System.out.print("Enter the student age: ");
-        int age = scanner.nextInt();
+        String age = scanner.nextLine();
 
         try {
             ps = connection.prepareStatement("INSERT INTO students(name, age)" +
